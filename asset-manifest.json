@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rolling-reactions-website/static/css/main.0d9c9b18.css",
+    "main.js": "/rolling-reactions-website/static/js/main.52392939.js",
+    "static/js/787.cda612ba.chunk.js": "/rolling-reactions-website/static/js/787.cda612ba.chunk.js",
+    "static/media/Nico.png": "/rolling-reactions-website/static/media/Nico.da7121ed9dd71cd58299.png",
+    "static/media/Jingyi.jpg": "/rolling-reactions-website/static/media/Jingyi.cea3bfe3b2df6f1ac403.jpg",
+    "static/media/Anna.jpg": "/rolling-reactions-website/static/media/Anna.5ff57851e271a95a49d3.jpg",
+    "static/media/Aritra.jpg": "/rolling-reactions-website/static/media/Aritra.7938f445756da231294f.jpg",
+    "static/media/Simon.jpg": "/rolling-reactions-website/static/media/Simon.8c14489f64674f2bf754.jpg",
+    "index.html": "/rolling-reactions-website/index.html",
+    "main.0d9c9b18.css.map": "/rolling-reactions-website/static/css/main.0d9c9b18.css.map",
+    "main.52392939.js.map": "/rolling-reactions-website/static/js/main.52392939.js.map",
+    "787.cda612ba.chunk.js.map": "/rolling-reactions-website/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d9c9b18.css",
+    "static/js/main.52392939.js"
+  ]
+}
