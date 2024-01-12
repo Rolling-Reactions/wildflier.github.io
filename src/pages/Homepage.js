@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import { Link } from "react-scroll";
-import vid from "../Intro_1.mp4";
 
 const Homepage = () => {
   const [showReadMore, setShowReadMore] = useState(false);
@@ -15,10 +14,7 @@ const Homepage = () => {
   }, []);
   return (
     <div className="flex h-[120vh] w-full bg-black justify-center items-center text-white text-4xl">
-      <video className="h-fit w-full" autoPlay muted>
-        <source src={vid} type="video/mp4" />
-        <image src="../Nico.png" alt="" />
-      </video>
+
       {showReadMore && (
         <Link
           to="about"

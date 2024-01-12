@@ -1,10 +1,9 @@
 import React from "react";
 import Nico from "../Nico.png";
-import Jingyi from "../Jingyi.jpeg";
-import Simon from "../Simon.jpeg";
-import Aritra from "../Aritra.jpeg";
-import Anna from "../Anna.jpeg";
-import Adria from "../adri.jpg"
+import Jingyi from "../Jingyi.jpg";
+import Simon from "../Simon.jpg";
+import Aritra from "../Aritra.jpg";
+import Anna from "../Anna.jpg";
 
 const Team = () => {
   const members = [
@@ -43,13 +42,13 @@ const Team = () => {
       mail: "nsrs@kth.se",
       linkedIn: "https://www.linkedin.com/in/nicolas-rollino-262527197/",
     },
-    {
-        name: "Adria Cruz",
-        role: "Supervisor",
-        photo: Adria,
-        mail: "adria.cruz@ericsson.com",
-        linkedIn: "https://www.linkedin.com/in/adriacruzcebrian/",
-      },
+    // {
+    //     name: "Adria Cruz",
+    //     role: "Supervisor",
+    //     photo: Adria,
+    //     mail: "adria.cruz@ericsson.com",
+    //     linkedIn: "https://www.linkedin.com/in/adriacruzcebrian/",
+    //   },
 
   ];
   return (
