@@ -14,6 +14,15 @@ const Homepage = () => {
   }, []);
   return (
     <div className="flex h-[120vh] w-full bg-black justify-center items-center text-white text-4xl">
+      <iframe 
+      className="h-full w-full" 
+      src="https://www.youtube.com/embed/-ASJqcCm-PM?si=LQHpps8IPjn7VUe-" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen></iframe>
+      
+      
 
       {showReadMore && (
         <Link
@@ -32,8 +41,9 @@ const Homepage = () => {
 };
 
 export default Homepage;
-//         <iframe
-// title="demo"
-// className="h-full w-full"
-// src="https://www.youtube.com/embed/x70-3mPJzX0"
-// />
+  //<iframe
+  //title="demo"
+  //className="h-full w-full"
+  //src="https://www.youtube.com/watch?v=-ASJqcCm-PM">
+  //</iframe>
+  
