@@ -30,7 +30,7 @@ const Team = () => {
       linkedIn: "https://www.linkedin.com/in/aritra-bhakat/",
     },
     {
-      name: <b>Anna Kristiansson</b>,
+      name: "Anna Kristiansson",
       role: "Performance Optimization (Modeling Level Of Detail for trees), Fire and Smoke Particle Effects, Fire Spreading Algoritm",
       photo: Anna,
       mail: "annakris@kth.se",
@@ -68,7 +68,7 @@ const Team = () => {
                 alt=""
               />
               <div className="mt-8 font-bold">{member.name}</div>
-              <div className="  text-center">Contribution:  {member.role}</div>
+              <div className="  text-center">{member.role}</div>
               <div className=" font-bold">Mail: {member.mail}</div>
               <a className="hover:underline font-bold" href={member.linkedIn}>LinkedIn</a>
               <div>

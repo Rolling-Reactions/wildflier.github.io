@@ -45,38 +45,7 @@ const About = () => {
                       color="white"
                       className="mb-12 opacity-80"
                     >
-                      For this project we wanted to explore using multiple 
-                      devices for interaction, and using interaction methods 
-                      beyond mouse and keyboard, such as the gyroscope and 
-                      accelerometer. We also wanted to push ourselves to try 
-                      new graphical techniques and procedural generation.
-                    </Typography>
-                  </div>
-                </div>
-              </div>
-              <div className="relative h-screen w-full ">
-                <div className="absolute inset-0 grid h-full w-full place-items-center bg-black">
-                  <div className="w-3/4 text-center md:w-2/4">
-                  <Typography
-                      variant="h1"
-                      color="white"
-                      className="mb-4 text-3xl md:text-4xl lg:text-5xl"
-                    >
-                      Goals
-                    </Typography>
-                    <Typography
-                      variant="h0"
-                      color="white"
-                      className="mb-4 text-3xl md:text-4xl lg:text-5xl"
-                    >
-                      For Society
-                    </Typography>
-                    <Typography
-                      variant="lead"
-                      color="white"
-                      className="mb-12 opacity-80 text-base"
-                    >
-                      Empty 
+                      For this project we wanted to explore using multiple devices for interaction, and using interaction methods beyond mouse and keyboard, such as the gyroscope and accelerometer. We also wanted to push ourselves to try new graphical techniques and procedural generation.
                     </Typography>
                   </div>
                 </div>
