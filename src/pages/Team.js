@@ -53,7 +53,7 @@ const Team = () => {
 
   ];
   return (
-    <div id="team" className="flex flex-col h-fit w-full justify-center items-center"> // bg-black
+    <div id="team" className="flex flex-col h-fit w-full justify-center items-center"> 
       <p className="text-4xl font-bold w-4/5">Team </p> 
       
       <div className="flex flex-col justify-center h-4/5 md:flex-wrap md:flex-row ">
@@ -64,7 +64,7 @@ const Team = () => {
               key={member.name}
             >
               <img
-                className="h-56 w-56 object-cover object-center"
+                className="h-56 w-56 object-cover rounded-full object-center"
                 src={member.photo}
                 alt=""
               />

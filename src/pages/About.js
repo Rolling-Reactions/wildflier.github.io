@@ -133,8 +133,8 @@ const About = () => {
                 accelerometer and interaction data back to the PC.
               </div>
               <div div className="w-full px-8 mt-4  md:w-2/5 md:mt-0">
-                Another challenge was to create the fire spreading algorithm. 
-                Work in progress
+                It was also a challenge to create a complete game in such a short
+                amount of time. 
               </div>
             </div>
           </div>
@@ -159,10 +159,47 @@ const About = () => {
               </div>
             </div>
           </div>
+
+          <div className="flex flex-col items-center w-full my-5 justify-center">
+            <p className="text-4xl font-bold w-4/5">Related Work</p>
+            <div className="flex flex-col justify-center md:flex-row">
+              <div className="w-full  md:w-2/5 px-8">
+
+                <div><b>1. Stop disasters 2.0: Video games as tools for Disaster Risk Reduction</b></div>
+                <div>Anthony Gampbell, 2016</div>
+                <div></div>
+          
+                <div><b>2. Unity3D Android Gyroscope Controls (with a helicopter game)</b></div>
+                
+              </div>
+              <div div className="w-full px-8 mt-4  md:w-2/5 md:mt-0">
+     
+              <div><b>Similar Cool Project: FireJumper Inferno</b></div>
+                
+              <div>
+                <iframe 
+                  width="560" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/uXP2cxPGLmM?si=85lZKyaR6ed64MZr" 
+                  title="YouTube video player" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   );
 };
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uXP2cxPGLmM?si=85lZKyaR6ed64MZr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 export default About;
