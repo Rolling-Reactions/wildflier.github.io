@@ -86,40 +86,7 @@ const About = () => {
               </div>  
             </Carousel>
 
-            <div className="flex flex-col items-center w-full my-5 justify-center">
-            <p className="text-4xl font-bold w-4/5">Goals</p>
-            <div className="flex flex-col justify-center md:flex-row">
-              <div className="w-full  md:w-2/5 px-8">
 
-              <div>
-                <b>For Developers</b>
-              </div>
-              
-              <div>
-                For this project we wanted to explore using multiple 
-                devices for interaction, and using interaction methods 
-                beyond mouse and keyboard, such as the gyroscope and 
-                accelerometer. We also wanted to push ourselves to try 
-                new graphical techniques and procedural generation.
-              </div>
-
-              </div>
-              <div className="w-full px-8 mt-4  md:w-2/5 md:mt-0">
-                <div>
-                  <b>For Players</b>
-                </div>
-                <div>
-                  Our primary goal when starting the project was to 
-                  create a fun co-op experience for the players. Co-op 
-                  games in general are a great vehicle to bond with 
-                  your friends by working together to achieve a goal. 
-                  In our case the goal is to put out a forest fire, 
-                  and the players have to communicate in order to 
-                  effectively put it out.
-                </div>            
-              </div>
-            </div>
-          </div>
 
 
           <div className="flex flex-col items-center w-full my-5 justify-center">
