@@ -4,6 +4,7 @@ import Jingyi from "../Jingyi.jpg";
 import Simon from "../Simon.jpg";
 import Aritra from "../Aritra.jpg";
 import Anna from "../Anna.jpg";
+import Adria from "../Adria.jpg";
 
 const Team = () => {
   const members = [
@@ -29,7 +30,7 @@ const Team = () => {
       linkedIn: "https://www.linkedin.com/in/aritra-bhakat/",
     },
     {
-      name: "Anna Kristiansson",
+      name: <b>Anna Kristiansson</b>,
       role: "Performance Optimization (Modeling Level Of Detail for trees), Fire and Smoke Particle Effects, Fire Spreading Algoritm",
       photo: Anna,
       mail: "annakris@kth.se",
@@ -42,13 +43,13 @@ const Team = () => {
       mail: "nsrs@kth.se",
       linkedIn: "https://www.linkedin.com/in/nicolas-rollino-262527197/",
     },
-     {
-         name: "Adria Cruz",
-         role: "Supervisor",
-         photo: Adria,
-         mail: "adria.cruz@ericsson.com",
-         linkedIn: "https://www.linkedin.com/in/adriacruzcebrian/",
-       },
+    {
+        name: "Adria Cruz",
+        role: "Supervisor",
+        photo: Adria.jpg,
+        mail: "adria.cruz@ericsson.com",
+        linkedIn: "https://www.linkedin.com/in/adriacruzcebrian/",
+      },
 
   ];
   return (
@@ -67,7 +68,7 @@ const Team = () => {
                 alt=""
               />
               <div className="mt-8 font-bold">{member.name}</div>
-              <div className="font-bold  text-center">Primary role:  {member.role}</div>
+              <div className="  text-center">Contribution:  {member.role}</div>
               <div className=" font-bold">Mail: {member.mail}</div>
               <a className="hover:underline font-bold" href={member.linkedIn}>LinkedIn</a>
               <div>
