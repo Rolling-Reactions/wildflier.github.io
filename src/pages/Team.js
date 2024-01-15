@@ -9,46 +9,46 @@ const Team = () => {
   const members = [
     {
       name: "Jingyi Hu",
-      role: "Fluid simulation, Chemical experiment developer",
+      role: "Networking, Helicopter Controls",
       photo: Jingyi,
       mail: "jingyihu@kth.se",
       linkedIn: "https://www.linkedin.com/in/jingyi-hu-3853a41a4",
     },
     {
       name: "Simon Hallak",
-      role: "Interaction developer and Scene creation",
+      role: "Helicopter Controls, Fire Spreading and Networking.",
       photo: Simon,
       mail: "shallak@kth.se",
       linkedIn: "http://linkedin.com/in/simon-hallak-2738a318b",
     },
     {
       name: "Aritra Bhakat",
-      role: "Wheelchair physics and interaction, integrating fluid simulation",
+      role: "Created the Map: Procedurally Generating Terrain and Trees. Fire Spreading Algorithm. Optimized the Performance of Fire Simulation and Forest Rendering.",
       photo: Aritra,
       mail: "aritra@kth.se",
       linkedIn: "https://www.linkedin.com/in/aritra-bhakat/",
     },
     {
       name: "Anna Kristiansson",
-      role: "Interaction, Modelling and Scene Design",
+      role: "Performance Optimization (Modeling Level Of Detail for trees), Fire and Smoke Particle Effects, Fire Spreading Algoritm",
       photo: Anna,
       mail: "annakris@kth.se",
-      linkedIn: "https://www.linkedin.com/in/anna-kristiansson-79b505174/",
+      linkedIn: "https://www.linkedin.com/in/kristiansson-anna/",
     },
     {
       name: "Nicolas Rollino",
-      role: "Web Development and Fluid simulation",
+      role: "Shooting Mechanics, Fire Extinguishing, Water Shader. Modeling and Shader for Watergun.",
       photo: Nico,
       mail: "nsrs@kth.se",
       linkedIn: "https://www.linkedin.com/in/nicolas-rollino-262527197/",
     },
-    // {
-    //     name: "Adria Cruz",
-    //     role: "Supervisor",
-    //     photo: Adria,
-    //     mail: "adria.cruz@ericsson.com",
-    //     linkedIn: "https://www.linkedin.com/in/adriacruzcebrian/",
-    //   },
+     {
+         name: "Adria Cruz",
+         role: "Supervisor",
+         photo: Adria,
+         mail: "adria.cruz@ericsson.com",
+         linkedIn: "https://www.linkedin.com/in/adriacruzcebrian/",
+       },
 
   ];
   return (
