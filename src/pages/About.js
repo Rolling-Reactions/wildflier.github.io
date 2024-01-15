@@ -15,9 +15,10 @@ const About = () => {
               Wildflier is the second project in the course DH2413 Advanced 
               Graphics and Interactions at KTH, 2023. It is a multiplayer 
               experience where two players collaborate to put out a wildfire 
-              from a helicopter. The first player controls the helicopter 
-              and the second player controls the water gun. The goal is to 
-              put out the wildfire before it spreads too far!
+              from a helicopter, using accelerometer and gyroscope data from 
+              their phones. The first player controls the helicopter and the 
+              second player controls the water gun. The goal is to put out 
+              the wildfire before it spreads too far!
             </p>
           </div>
         </div>
@@ -85,18 +86,39 @@ const About = () => {
               </div>  
             </Carousel>
           <div className="flex flex-col items-center w-full my-5 justify-center">
-            <p className="text-4xl font-extrabold w-4/5">Challenges and Obstacles</p>
+            <p className="text-4xl font-bold w-4/5">Challenges and Obstacles</p>
             <div className="flex flex-col justify-center md:flex-row">
               <div className="w-full  md:w-2/5 px-8">
-                Networking was the biggest challenge in the project. We needed 
+                <b>Networking</b> was the biggest challenge in the project. We needed 
                 to perform networking for both mobile devices. The water gun 
                 controls were extra challenging as the screen had to streamed 
                 from the PC to the phone, as well as transferring the gyroscope, 
                 accelerometer and interaction data back to the PC.
               </div>
               <div div className="w-full px-8 mt-4  md:w-2/5 md:mt-0">
-                Another challenge was to create the fire spreading algorithm.
+                Another challenge was to create the fire spreading algorithm. 
                 Work in progress
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center w-full my-5 justify-center">
+            <p className="text-4xl font-bold w-4/5">Technologies Used</p>
+            <div className="flex flex-col justify-center md:flex-row">
+              <div className="w-full  md:w-2/5 px-8">
+
+                <div><b>Unity</b> was the game engine used for this project. All the members were familiar with it and we knew it had versatile networking features which was important for our game.</div>
+          
+                <div><b>Blender:</b> In order to create the different Level Of Detail (LOD) for the tree models, we used Blender.</div>
+                
+              </div>
+              <div div className="w-full px-8 mt-4  md:w-2/5 md:mt-0">
+
+              <div><b>Github</b> was used for version control, which was crucial so that the team could work on many features in parallel.</div>
+              
+              <div><b>Trello</b> was used to organise weekly Agile sprints and bring structure to the collaboration.</div>
+                
+              <div><b>Discord</b> was used for daily communication between team members and our supervisor.</div>
+              
               </div>
             </div>
           </div>

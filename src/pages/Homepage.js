@@ -23,7 +23,6 @@ const Homepage = () => {
       allowfullscreen></iframe>
       
       
-
       {showReadMore && (
         <Link
           to="about"
@@ -41,9 +40,4 @@ const Homepage = () => {
 };
 
 export default Homepage;
-  //<iframe
-  //title="demo"
-  //className="h-full w-full"
-  //src="https://www.youtube.com/watch?v=-ASJqcCm-PM">
-  //</iframe>
   

@@ -46,16 +46,17 @@ const Team = () => {
     {
         name: "Adria Cruz",
         role: "Supervisor",
-        photo: Adria.jpg,
+        photo: Adria,
         mail: "adria.cruz@ericsson.com",
         linkedIn: "https://www.linkedin.com/in/adriacruzcebrian/",
       },
 
   ];
   return (
-    <div id="team" className="flex flex-col h-fit w-full justify-center items-center">
-      <div className="text-6xl w-4/5">Team</div>
-      <div className="flex flex-col justify-center h-4/5 md:flex-wrap md:flex-row">
+    <div id="team" className="flex flex-col h-fit w-full justify-center items-center"> // bg-black
+      <p className="text-4xl font-bold w-4/5">Team </p> 
+      
+      <div className="flex flex-col justify-center h-4/5 md:flex-wrap md:flex-row ">
         {members.map((member) => {
           return (
             <div
@@ -63,13 +64,13 @@ const Team = () => {
               key={member.name}
             >
               <img
-                className="h-56 w-56 rounded-full object-cover object-center"
+                className="h-56 w-56 object-cover object-center"
                 src={member.photo}
                 alt=""
               />
               <div className="mt-8 font-bold">{member.name}</div>
+              <div className=" font-bold">{member.mail}</div>
               <div className="  text-center">{member.role}</div>
-              <div className=" font-bold">Mail: {member.mail}</div>
               <a className="hover:underline font-bold" href={member.linkedIn}>LinkedIn</a>
               <div>
 
