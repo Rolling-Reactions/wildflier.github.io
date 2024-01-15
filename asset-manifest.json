@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wildflier.github.io/static/css/main.48e766b7.css",
-    "main.js": "/wildflier.github.io/static/js/main.1c9325b0.js",
+    "main.js": "/wildflier.github.io/static/js/main.5dee9b0d.js",
     "static/js/787.cda612ba.chunk.js": "/wildflier.github.io/static/js/787.cda612ba.chunk.js",
     "static/media/Adria.jpg": "/wildflier.github.io/static/media/Adria.ddc5023297f98af303e7.jpg",
     "static/media/Nico.png": "/wildflier.github.io/static/media/Nico.da7121ed9dd71cd58299.png",
@@ -11,11 +11,11 @@
     "static/media/Simon.jpg": "/wildflier.github.io/static/media/Simon.8c14489f64674f2bf754.jpg",
     "index.html": "/wildflier.github.io/index.html",
     "main.48e766b7.css.map": "/wildflier.github.io/static/css/main.48e766b7.css.map",
-    "main.1c9325b0.js.map": "/wildflier.github.io/static/js/main.1c9325b0.js.map",
+    "main.5dee9b0d.js.map": "/wildflier.github.io/static/js/main.5dee9b0d.js.map",
     "787.cda612ba.chunk.js.map": "/wildflier.github.io/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48e766b7.css",
-    "static/js/main.1c9325b0.js"
+    "static/js/main.5dee9b0d.js"
   ]
 }
